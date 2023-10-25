@@ -18,9 +18,18 @@ public class ContaTerminal{
             System.out.println("Por favor, digite o nome do cliente!");
             nome = teclado.next();
 
-            System.out.println("O saldo em sua conta");
+            System.out.println("Digite o saldo em sua conta!");
             saldo = teclado.nextFloat();
+
+            System.out.printf("Olá " + nome);
+            System.out.printf(", obrigado por criar uma conta em nosso banco, sua agência é " + agencia );
+            System.out.printf(", conta " + numero);
+            System.out.printf(" e seu saldo " + saldo );
+            System.out.printf(" já está disponível para saque.");
+
+            teclado.close();
             
         }
      }
+
 }
